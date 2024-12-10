@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  font-family: "Oswald";
+  /* .contato{
+      font-size: 1.5rem;
+      border: solid;
+      width: 10vw;
+      text-align: center;
+  }*/
+}
+header nav {
+  width: 50%;
+}
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 15vh;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+header a:hover {
+  font-size: 1.5rem;
+  border: solid;
+}
+
+main .container_bg_img {
+  background-color: #5b5b5b;
+  height: 100vh;
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  /*
+  background-size: 50% 50vh;
+  background-position: top;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: center;
+  */
+  font-family: "Oswald";
+}
+main .container_bg_img .bgtxt {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: 320px;
+}
+main .container_bg_img h1 {
+  font-size: 6rem;
+  color: white;
+  font-weight: 700;
+}
+main .container_bg_img h2 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 70;
+}
+main .container_bg_img button {
+  margin-left: 100px;
+  margin-top: 40px;
+  font-size: 1.7rem;
+  background-color: blue;
+  color: white;
+  height: 5vh;
+  font-weight: 400;
+  width: 12vw;
+}
+
+.container_gestaointegrada {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Oswald";
+  height: 120vh;
+}
+.container_gestaointegrada .gestaotexto {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  text-align: start;
+  font-size: 1.8rem;
+  margin-top: 30px;
+  font-family: "roboto";
+  font-weight: 4;
+  justify-content: space-evenly;
+}
+.container_gestaointegrada .gestaotexto ul {
+  list-style: none;
+}
+.container_gestaointegrada .gestaotexto ul a {
+  text-decoration: none;
+}
+.container_gestaointegrada h3 {
+  color: blue;
+}
+.container_gestaointegrada img {
+  width: 40vw;
+  margin-left: 320px;
+}
+.container_gestaointegrada p {
+  font-size: 1.6rem;
+}
+
+.container_solucoes {
+  background-color: rgb(204, 203, 203);
+  height: 110vh;
+}
+
+.solucoestexto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Oswald";
+  flex-direction: column;
+  position: relative;
+  top: 8%;
+}
+.solucoestexto h2 {
+  color: blue;
+}
+
+.teste {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Oswald";
+}
+.teste .img1 {
+  width: 20%;
+  height: 55vh;
+  background-color: white;
+}
+.teste .img1 img {
+  width: 100%;
+}
+.teste .img2 {
+  width: 20%;
+  height: 55vh;
+  background-color: white;
+}
+.teste .img2 img {
+  width: 100%;
+}
+.teste .img3 {
+  width: 20%;
+  height: 55vh;
+  background-color: white;
+}
+.teste .img3 img {
+  width: 100%;
+}
+.teste h2 {
+  font-size: 1.25rem;
+  text-align: start;
+  margin: 30px;
+}
+.teste p {
+  font-size: 1.3rem;
+  text-align: start;
+  font-weight: 100;
+  margin: 30px;
+}
+
+.container_atendimento {
+  background-color: white;
+}
+.container_atendimento h2 {
+  color: blue;
+}
+
+.container_locais {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px;
+  justify-content: space-evenly;
+}
+.container_locais figure {
+  width: 50%;
+}
+
+form {
+  width: 40%;
+}
+form .container_form {
+  width: 75%;
+  display: flex;
+}
+form .container_form h2 {
+  color: blue;
+}
+
+.final {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Oswald";
+}
+
+fieldset {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+fieldset button {
+  background-color: blue;
+  color: white;
+  height: 4vh;
+  width: 25vw;
+}
+
+#mensagem {
+  height: 10vh;
+}
+
+footer {
+  background-color: rgb(204, 203, 203);
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 700;
+  color: #001C43;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */

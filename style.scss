@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    // border: solid red;
+    // background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    font-family: "Oswald";
+
+    nav {
+        //border: solid green;
+        width: 50%;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        //border: solid;
+        height: 15vh;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    a:hover {
+        font-size: 1.5rem;
+        border: solid;
+    }
+
+    /* .contato{
+        font-size: 1.5rem;
+        border: solid;
+        width: 10vw;
+        text-align: center;
+    }*/
+}
+
+main {
+    .container_bg_img {
+        background-color: #5b5b5b;
+        height: 100vh;
+        background-image: url(./assets/background.png);
+        // background-repeat: repeat-x; //repetir imagem no eixo X ou Y
+        // background-repeat: repeat repeat; //repete em ambos os eixos
+        background-repeat: no-repeat;
+        background-size: contain; //imagem do tamanho que ela é
+        background-size: cover; //ocupa toda a caixa
+
+        /*
+        background-size: 50% 50vh;
+        background-position: top;
+        background-position: bottom;
+        background-position: left;
+        background-position: right;
+        background-position: center;
+        */
+
+        font-family: "Oswald";
+
+        .bgtxt {
+            margin-left: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            top: 320px;
+
+        }
+
+        h1 {
+            font-size: 6rem;
+            color: white;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: white;
+            font-weight: 70;
+        }
+
+        button {
+            margin-left: 100px;
+            margin-top: 40px;
+            font-size: 1.7rem;
+            background-color: blue;
+            color: white;
+            height: 5vh;
+            font-weight: 400;
+            width: 12vw;
+
+        }
+    }
+
+    // ARTIGO
+    // FORMULARIO
+    // FIGURE FIGCAPTION
+
+}
+
+.container_gestaointegrada {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Oswald";
+    height: 120vh;
+
+    .gestaotexto {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        text-align: start;
+        font-size: 1.8rem;
+        margin-top: 30px;
+        font-family: "roboto";
+        font-weight: 4;
+        justify-content: space-evenly;
+
+        ul {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    h3 {
+        color: blue;
+    }
+
+    img {
+        width: 40vw;
+        margin-left: 320px;
+    }
+
+    p{
+        font-size: 1.6rem;
+    }
+}
+
+.container_solucoes {
+    background-color: rgb(204, 203, 203);
+    height: 110vh;
+}
+
+.solucoestexto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Oswald";
+    flex-direction: column;
+    position: relative;
+    top: 8%;   
+
+    h2 {
+        color: blue;
+    }
+}
+
+.teste {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Oswald";
+ 
+    .img1 {
+        //border: rgba($color: #000000, $alpha: 0.4);
+        width: 20%;
+        height: 55vh;
+        background-color: white;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .img2 {
+        width: 20%;
+        height: 55vh;
+        background-color: white;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .img3 {
+        //border: solid ;
+        width: 20%;
+        height: 55vh;
+        background-color: white;
+
+        img {
+            width: 100%;
+
+        }
+    }
+
+    h2{
+        font-size: 1.25rem;
+        text-align: start;
+        margin: 30px;
+    }
+
+    p{
+        font-size: 1.3rem;
+        text-align: start;
+        font-weight: 100;
+        margin: 30px;
+    }
+}
+
+.container_atendimento {
+    background-color: white;
+
+    h2 {
+        color: blue;
+    }
+}
+
+.container_locais {
+    //border: solid green;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px;
+    justify-content: space-evenly;
+
+
+    // justify-content: space-between;
+
+    figure {
+        width: 50%;
+    }
+}
+
+
+
+form {
+    //background-color: aqua;
+    width: 40%;
+
+
+    .container_form {
+        //border: solid tomato;
+        width: 75%;
+        display: flex;
+
+        h2 {
+            color: blue;
+        }
+
+        //position: relative;
+        //top: 100px; 
+        //bottom: 200px;       
+        //left: 1300px;      
+    }
+}
+
+.final {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Oswald";
+}
+
+fieldset {
+    //background-color: green;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    button {
+        background-color: blue;
+        color: white;
+        height: 4vh;
+        width: 25vw;
+    }
+}
+
+#mensagem {
+    height: 10vh;
+    //background-color: pink;
+}
+
+footer {
+    background-color: rgb(204, 203, 203);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald";
+    font-weight: 700;
+    color: #001C43;
+    font-size: 14px;
+}
