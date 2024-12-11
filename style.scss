@@ -60,6 +60,7 @@ main {
         background-repeat: no-repeat;
         background-size: contain; //imagem do tamanho que ela é
         background-size: cover; //ocupa toda a caixa
+        
 
         /*
         background-size: 50% 50vh;
@@ -106,11 +107,6 @@ main {
 
         }
     }
-
-    // ARTIGO
-    // FORMULARIO
-    // FIGURE FIGCAPTION
-
 }
 
 .container_gestaointegrada {
@@ -127,7 +123,7 @@ main {
         width: 30vw;
         text-align: start;
         font-size: 1.8rem;
-        margin-top: 30px;
+        //margin-top: 30px;
         font-family: "roboto";
         font-weight: 4;
         justify-content: space-evenly;
@@ -149,7 +145,7 @@ main {
 
     img {
         width: 40vw;
-        margin-left: 320px;
+        margin-left: 20%;
     }
 
     p{
@@ -176,7 +172,7 @@ main {
     }
 }
 
-.teste {
+.solucoesimgs {
     margin-top: 200px;
     display: flex;
     justify-content: space-evenly;
@@ -184,7 +180,7 @@ main {
     font-family: "Oswald";
  
     .img1 {
-        //border: rgba($color: #000000, $alpha: 0.4);
+        box-shadow: 0px 4px 10px 0px #00000696;
         width: 20%;
         height: 55vh;
         background-color: white;
@@ -195,6 +191,7 @@ main {
     }
 
     .img2 {
+        box-shadow: 0px 4px 10px 0px #00000696;
         width: 20%;
         height: 55vh;
         background-color: white;
@@ -205,7 +202,7 @@ main {
     }
 
     .img3 {
-        //border: solid ;
+        box-shadow: 0px 4px 10px 0px #00000696;
         width: 20%;
         height: 55vh;
         background-color: white;
@@ -292,6 +289,7 @@ fieldset {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    border: none;
 
     button {
         background-color: blue;

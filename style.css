@@ -100,7 +100,6 @@ main .container_bg_img button {
   width: 30vw;
   text-align: start;
   font-size: 1.8rem;
-  margin-top: 30px;
   font-family: "roboto";
   font-weight: 4;
   justify-content: space-evenly;
@@ -117,7 +116,7 @@ main .container_bg_img button {
 }
 .container_gestaointegrada img {
   width: 40vw;
-  margin-left: 320px;
+  margin-left: 20%;
 }
 .container_gestaointegrada p {
   font-size: 1.6rem;
@@ -141,43 +140,46 @@ main .container_bg_img button {
   color: blue;
 }
 
-.teste {
+.solucoesimgs {
   margin-top: 200px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   font-family: "Oswald";
 }
-.teste .img1 {
+.solucoesimgs .img1 {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 6, 0.5882352941);
   width: 20%;
   height: 55vh;
   background-color: white;
 }
-.teste .img1 img {
+.solucoesimgs .img1 img {
   width: 100%;
 }
-.teste .img2 {
+.solucoesimgs .img2 {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 6, 0.5882352941);
   width: 20%;
   height: 55vh;
   background-color: white;
 }
-.teste .img2 img {
+.solucoesimgs .img2 img {
   width: 100%;
 }
-.teste .img3 {
+.solucoesimgs .img3 {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 6, 0.5882352941);
   width: 20%;
   height: 55vh;
   background-color: white;
 }
-.teste .img3 img {
+.solucoesimgs .img3 img {
   width: 100%;
 }
-.teste h2 {
+.solucoesimgs h2 {
   font-size: 1.25rem;
   text-align: start;
   margin: 30px;
 }
-.teste p {
+.solucoesimgs p {
   font-size: 1.3rem;
   text-align: start;
   font-weight: 100;
@@ -229,6 +231,7 @@ fieldset {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  border: none;
 }
 fieldset button {
   background-color: blue;
