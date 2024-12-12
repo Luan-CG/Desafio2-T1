@@ -92,9 +92,9 @@ main .container_bg_img button {
   justify-content: space-evenly;
   align-items: center;
   font-family: "Oswald";
-  height: 120vh;
 }
 .container_gestaointegrada .gestaotexto {
+  height: 75vh;
   display: flex;
   flex-direction: column;
   width: 30vw;
@@ -116,7 +116,7 @@ main .container_bg_img button {
 }
 .container_gestaointegrada img {
   width: 40vw;
-  margin-left: 20%;
+  margin: 10%;
 }
 .container_gestaointegrada p {
   font-size: 1.6rem;
@@ -128,6 +128,7 @@ main .container_bg_img button {
 }
 
 .solucoestexto {
+  height: 15vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -195,15 +196,26 @@ main .container_bg_img button {
   color: blue;
 }
 
+.atendimentotxt {
+  height: 9vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .container_locais {
-  width: 75%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   margin: 70px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  height: 50vh;
 }
 .container_locais figure {
   width: 50%;
+}
+.container_locais figure img {
+  width: 15vw;
 }
 
 form {
@@ -212,6 +224,7 @@ form {
 form .container_form {
   width: 50%;
   display: flex;
+  margin: 15%;
 }
 form .container_form h2 {
   color: blue;
@@ -237,7 +250,7 @@ fieldset button {
   background-color: blue;
   color: white;
   height: 4vh;
-  width: 67%;
+  width: 65%;
 }
 
 #mensagem {
